@@ -25,13 +25,13 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void onClickTraining(View v)    {
-        Intent intent = new Intent(getApplicationContext(), Kochbuch.class);
+        Intent intent = new Intent(getApplicationContext(), Training_main.class);
         startActivity(intent);
     }
 
     public void onClickTest(View v) {
         //db.holen(1);
-        Intent intent = new Intent(getApplicationContext(), Kochbuch.class);
+        Intent intent = new Intent(getApplicationContext(), Test_main.class);
         startActivity(intent);
     }
 }
