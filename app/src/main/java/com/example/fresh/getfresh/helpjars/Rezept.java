@@ -50,7 +50,7 @@ public class Rezept {
 	}
 
 	public String info(){
-		return (this.name+"\n "+this.kJ+"\n "+this.zutaten+"\n "+this.schritte+"\n "+this.zeit);
+		return ("\n"+this.name+"\t\t\t\t"+this.kJ+"kcal\n\n\nZutaten:\n\n"+this.zutaten+"\n\nZubereitung:\n\n"+this.schritte+"\n\n Zubereitungszeit:  "+this.zeit+"min");
 	}
 
 	//Konstruktor
