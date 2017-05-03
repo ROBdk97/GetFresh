@@ -24,11 +24,5 @@ public class Rezept_Info extends AppCompatActivity {
         Bundle b = getIntent().getExtras();
         editText.setText(b.getString("rezept"));
         imageView.setBackgroundResource(getResources().getIdentifier(("__food_"+b.getString("bild")) , "drawable", getPackageName()));
-        //imageView.setImageDrawable(getResources().getDrawable(getResources().getIdentifier(b.getString("bild"), null, getPackageName())));
-        //"R.drawable."+b.getString("bild")
-        //rezept=kochbuch.giveRezept(value);
-        //editText.setText(rezept.info());
-
-
     }
 }
