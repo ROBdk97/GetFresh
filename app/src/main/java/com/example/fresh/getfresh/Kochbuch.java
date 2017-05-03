@@ -53,6 +53,9 @@ public class Kochbuch extends AppCompatActivity implements AdapterView.OnItemCli
         Rezept r2 = new Rezept("Spaghetti Bolognese", 760,"1 Zwiebel(n)\n1 ZeheKnoblauch\n1 Möhre(n)\n500 g  Hackfleisch (Rinderhack oder Tartar)\nSalz und Pfeffer\n200 ml  Gemüsebrühe (Instant)\n1 kl. Dose/nTomatenmark\n1 TL  Oregano\n1 Pck.  Tomate(n), gestückelt, mit Kräutern (etwa 400 g)\n2 ELTomatenketchup\n500 g Nudeln (Spaghetti)","Zwiebel, Knoblauch und Möhre schälen und in feine Würfel schneiden. Hackfleisch in die Pfanne geben, langsam erhitzen und im eigenen Fett unter Rühren anbraten. Salzen und pfeffern. Zwiebeln, Knoblauch und Möhren dazugeben und kurz mitbraten. Mit der Brühe ablöschen, Tomatenmark, Oregano, die gestückelten Tomaten und Tomatenketchup unterrühren. Etwa 40 Minuten einkochen lassen.\nSpaghetti in Salzwasser bissfest kochen, abgießen, abschrecken und zusammen mit der Sauce servieren.",20,"spaghetti");
         rezeptliste.add(r1);
         rezeptliste.add(r2);
+
+        Rezept r3 = new Rezept("Mehr Rezepte",0,"Für mehr Rezepte Premium Version kaufen.","",0,"premium");
+        rezeptliste.add(r3);
         //test ende
     }
 
