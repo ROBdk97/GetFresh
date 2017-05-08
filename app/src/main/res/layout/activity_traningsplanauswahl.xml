@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.benedict.getfresh.TraningsplanauswahlActivity">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Wähle deine Traningsart"
+        tools:layout_editor_absoluteX="117dp"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="40dp" />
+
+    <RadioButton
+        android:id="@+id/radioButton_abnehmen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Abnehmen"
+        tools:layout_editor_absoluteX="143dp"
+        android:layout_marginTop="57dp"
+        app:layout_constraintTop_toBottomOf="@+id/textView1" />
+
+    <RadioButton
+        android:id="@+id/radioButton_muskelaufbau"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Muskelaufbau"
+        tools:layout_editor_absoluteX="132dp"
+        android:layout_marginTop="57dp"
+        app:layout_constraintTop_toBottomOf="@+id/radioButton_abnehmen" />
+
+    <Button
+        android:id="@+id/button_weiter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="weiter"
+        tools:layout_editor_absoluteX="148dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="16dp"
+        android:onClick="onClickweiter"/>
+</android.support.constraint.ConstraintLayout>

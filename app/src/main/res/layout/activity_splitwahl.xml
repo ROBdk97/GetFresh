@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/button_2ersplit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2er-Split"
+            tools:layout_editor_absoluteX="147dp"
+            android:layout_marginTop="60dp"
+            app:layout_constraintTop_toBottomOf="@+id/textView"
+            android:onClick="onClick2ersplit"/>
+
+        <Button
+            android:id="@+id/button_3ersplit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3er-Split"
+            tools:layout_editor_absoluteX="147dp"
+            android:layout_marginTop="60dp"
+            app:layout_constraintTop_toBottomOf="@+id/button_2ersplit"
+            android:onClick="onClick3ersplit"/>
+
+        <Button
+            android:id="@+id/button_4ersplit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4er-Split"
+            tools:layout_editor_absoluteX="147dp"
+            android:layout_marginTop="60dp"
+            app:layout_constraintTop_toBottomOf="@+id/button_3ersplit"
+            android:onClick="onClick4ersplit"/>
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Wie oft willst du tranieren?"
+            tools:layout_editor_absoluteX="109dp"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="40dp" />
+    </android.support.constraint.ConstraintLayout>
+</LinearLayout>

@@ -32,13 +32,29 @@
             android:screenOrientation="portrait"
             android:label="Rezept Details"/>
         <activity
-            android:name=".Training_main"
-            android:screenOrientation="portrait"
-            android:label="Training"/>
-        <activity
             android:name=".Test_main"
             android:screenOrientation="portrait"
             android:label="Test"/>
+        <activity
+            android:name=".TraningsplanauswahlActivity"
+            android:screenOrientation="portrait"
+            android:label="Trainingsplan Auswahl"/>
+        <activity
+            android:name=".DreiersplitActivity"
+            android:screenOrientation="portrait"
+            android:label="Dreiersplit"/>
+        <activity
+            android:name=".SplitwahlActivity"
+            android:screenOrientation="portrait"
+            android:label="Splitwahl"/>
+        <activity
+            android:name=".VierersplitActivity"
+            android:screenOrientation="portrait"
+            android:label="Vierersplit"/>
+        <activity
+            android:name=".ZweiersplitActivity"
+            android:screenOrientation="portrait"
+            android:label="Zweiersplit"/>
     </application>
 
 </manifest>
