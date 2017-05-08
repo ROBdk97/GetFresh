@@ -10,4 +10,5 @@
     android:paddingRight="0px"
     android:minHeight="?android:attr/listPreferredItemHeightSmall"
     android:background="#FFFAFA"
-    android:textAlignment="center"/>
+    android:textAlignment="center"
+    android:textColor="#000000"/>
