@@ -3,11 +3,8 @@
     package="com.example.fresh.getfresh"
     android:installLocation="preferExternal">
 
-    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
-    <uses-permission android:name="android.permission.READ_PROFILE" />
-    <uses-permission android:name="android.permission.READ_CONTACTS"/>
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.WRITE_INTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.READ_INTERNAL_STORAGE" />
 
@@ -29,36 +26,40 @@
         </activity>
         <activity
             android:name=".Kochbuch"
-            android:screenOrientation="portrait"
-            android:label="Kochbuch"/>
+            android:label="Kochbuch"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".Rezept_Info"
-            android:screenOrientation="portrait"
-            android:label="Rezept Details"/>
+            android:label="Rezept Details"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".Test_main"
-            android:screenOrientation="portrait"
-            android:label="Test"/>
+            android:label="Test"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".TraningsplanauswahlActivity"
-            android:screenOrientation="portrait"
-            android:label="Trainingsplan Auswahl"/>
+            android:label="Trainingsplan Auswahl"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".DreiersplitActivity"
-            android:screenOrientation="portrait"
-            android:label="Dreiersplit"/>
+            android:label="Dreiersplit"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".SplitwahlActivity"
-            android:screenOrientation="portrait"
-            android:label="Splitwahl"/>
+            android:label="Splitwahl"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".VierersplitActivity"
-            android:screenOrientation="portrait"
-            android:label="Vierersplit"/>
+            android:label="Vierersplit"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".ZweiersplitActivity"
-            android:screenOrientation="portrait"
-            android:label="Zweiersplit"/>
+            android:label="Zweiersplit"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".KoerperdatenActivity"
+            android:label="Körperdaten"
+            android:screenOrientation="portrait" />
     </application>
 
 </manifest>

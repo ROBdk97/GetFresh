@@ -35,6 +35,8 @@ public class DBHandler extends SQLiteOpenHelper {
         + KEY_KON_STAND + " REAL" + ")";
         db.execSQL(CREATE_CONTACTS_TABLE);
     }
+
+    ////UNÖTIG
     @Override
     public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {
 // Drop older table if existed
@@ -42,6 +44,7 @@ public class DBHandler extends SQLiteOpenHelper {
 // Creating tables again
         onCreate(db);
     }
+    ////UNNÖTIG-ENDE
 
 
     public void addKonnto(Konto pKonto) {

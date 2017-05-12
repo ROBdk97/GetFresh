@@ -14,7 +14,7 @@ import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
 
-    //public static String dataPath = "/com.example.fresh.getfresh/data/data";
+    //public static String dataPath = getFilesDir();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
