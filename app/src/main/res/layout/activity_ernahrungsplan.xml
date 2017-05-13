@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textView98"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Ernahrungsplan"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="144dp" />
+
+        <TextView
+            android:id="@+id/textView125"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:text="gesamter Kalorien bedarf:"
+            app:layout_constraintTop_toBottomOf="@+id/textView98"
+            tools:layout_editor_absoluteX="25dp" />
+
+        <TextView
+            android:id="@+id/textView126"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="42dp"
+            android:text="Kohlenhydrate:"
+            app:layout_constraintTop_toBottomOf="@+id/textView125"
+            tools:layout_editor_absoluteX="25dp" />
+
+        <TextView
+            android:id="@+id/textView127"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="37dp"
+            android:text="Fett:"
+            app:layout_constraintTop_toBottomOf="@+id/textView126"
+            tools:layout_editor_absoluteX="25dp" />
+
+        <TextView
+            android:id="@+id/textView128"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="35dp"
+            android:text="Eiweiß:"
+            app:layout_constraintTop_toBottomOf="@+id/textView127"
+            tools:layout_editor_absoluteX="25dp" />
+
+        <TextView
+            android:id="@+id/textView129"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            tools:layout_editor_absoluteY="83dp"
+            app:layout_constraintLeft_toRightOf="@+id/textView125"
+            android:layout_marginLeft="15dp" />
+
+        <TextView
+            android:id="@+id/textView130"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            tools:layout_editor_absoluteY="141dp"
+            app:layout_constraintLeft_toRightOf="@+id/textView126"
+            android:layout_marginLeft="84dp" />
+
+        <TextView
+            android:id="@+id/textView131"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            tools:layout_editor_absoluteY="195dp"
+            app:layout_constraintLeft_toRightOf="@+id/textView127"
+            android:layout_marginLeft="148dp" />
+
+        <TextView
+            android:id="@+id/textView132"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            tools:layout_editor_absoluteY="247dp"
+            app:layout_constraintLeft_toRightOf="@+id/textView128"
+            android:layout_marginLeft="133dp" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="32dp"
+            android:text="Zurück zur Startseite"
+            app:layout_constraintBottom_toBottomOf="parent"
+            tools:layout_editor_absoluteX="96dp" />
+    </android.support.constraint.ConstraintLayout>
+</LinearLayout>
