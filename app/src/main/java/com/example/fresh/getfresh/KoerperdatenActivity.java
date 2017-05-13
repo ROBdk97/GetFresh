@@ -5,6 +5,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.RadioButton;
+import android.widget.RadioGroup;
 
 
 public class KoerperdatenActivity extends AppCompatActivity {
@@ -15,8 +17,8 @@ public class KoerperdatenActivity extends AppCompatActivity {
         setContentView(R.layout.activity_koerperdaten);
 
         final Button field_button = (Button) findViewById(R.id.field_button);
-        final Button field_maennlich = (Button) findViewById(R.id.field_maennlich);
-        final Button field_weiblich = (Button) findViewById(R.id.field_weiblich);
+        final RadioButton field_maennlich = (RadioButton) findViewById(R.id.radioButton_m);
+        final RadioButton field_weiblich = (RadioButton) findViewById(R.id.radioButton_w);
         final EditText field_alter = (EditText) findViewById(R.id.field_alter);
         final EditText field_groesse = (EditText) findViewById(R.id.field_groesse);
         final EditText field_gewicht = (EditText) findViewById(R.id.field_gewicht);

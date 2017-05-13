@@ -1,9 +1,132 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.example.fresh.getfresh.KoerperdatenActivity">
 
-</android.support.constraint.ConstraintLayout>
+    <TextView
+        android:id="@+id/textView130"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="1"
+        android:layout_row="0"
+        android:text="Geschlecht"
+        tools:layout_editor_absoluteX="157dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <RadioGroup>
+
+        <RadioButton
+            android:id="@+id/radioButton_w"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_row="1"
+            android:layout_weight="1"
+            android:text="Weiblich"
+            tools:layout_editor_absoluteX="238dp"
+            tools:layout_editor_absoluteY="59dp" />
+
+        <RadioButton
+            android:id="@+id/radioButton_m"
+            android:layout_width="match_parent"
+            android:layout_height="31dp"
+            android:layout_column="2"
+            android:layout_row="1"
+            android:layout_weight="1"
+            android:text="Männlich"
+            tools:layout_editor_absoluteX="57dp"
+            tools:layout_editor_absoluteY="59dp" />
+
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/textView128"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_row="5"
+        android:text="Gewicht"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="2dp"
+        tools:layout_editor_absoluteY="220dp" />
+
+    <EditText
+        android:id="@+id/field_gewicht"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="1"
+        android:layout_row="5"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        tools:layout_editor_absoluteX="108dp"
+        tools:layout_editor_absoluteY="220dp" />
+    <TextView
+        android:id="@+id/textView125"
+        android:layout_width="62dp"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_row="4"
+        android:text="Alter"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="2dp"
+        tools:layout_editor_absoluteY="111dp" />
+
+    <EditText
+        android:id="@+id/field_alter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="1"
+        android:layout_row="4"
+        android:ems="10"
+        android:inputType="number"
+        tools:layout_editor_absoluteX="108dp"
+        tools:layout_editor_absoluteY="111dp" />
+
+    <TextView
+        android:id="@+id/textView126"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_row="3"
+        android:text="Größe"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="2dp"
+        tools:layout_editor_absoluteY="166dp" />
+
+    <EditText
+        android:id="@+id/field_groesse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="1"
+        android:layout_row="3"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        tools:layout_editor_absoluteX="108dp"
+        tools:layout_editor_absoluteY="166dp" />
+
+    <Button
+        android:id="@+id/field_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="1"
+        android:layout_row="6"
+        android:text="Ergebniss"
+        tools:layout_editor_absoluteX="143dp"
+        tools:layout_editor_absoluteY="281dp" />
+
+    <EditText
+        android:id="@+id/field_ergebnis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="1"
+        android:layout_row="7"
+        android:editable="false"
+        android:ems="10"
+        android:inputType="none"
+        tools:layout_editor_absoluteX="85dp"
+        tools:layout_editor_absoluteY="371dp" />
+
+</TableLayout>

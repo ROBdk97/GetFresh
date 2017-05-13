@@ -16,7 +16,7 @@ public class Dbzugriff {
     public void oeffnenDB(){
         try {
             Class.forName("org.sqlite.JDBC");
-            dbVerbindung = DriverManager.getConnection("jdbc:sqlite:" + getFilesDir()"+/testDB.db");
+            dbVerbindung = DriverManager.getConnection("jdbc:sqlite:" + "/data/user/0/com.example.fresh.getfresh/databases/" + "/testDB.db");
             //System.out.println("Verbindung erfolgreich Hergestellt");
             sqlBefehl=dbVerbindung.createStatement();
             //System.out.println("SQLStatement erfolgreich Erzeugt");

@@ -1,12 +1,10 @@
 package com.example.fresh.getfresh.helpjars;
 
-import java.util.Date;
-
 
 public class Koerperdaten {
 	private boolean geschlecht; 
 	private double groesse;
-	private Date geburtstag;
+	private int alter;
 	private String name;
 	
 	//Methoden
@@ -29,11 +27,11 @@ public class Koerperdaten {
 	public void setGroesse(double groesse) {
 		this.groesse = groesse;
 	}
-	public Date getGeburtstag() {
-		return geburtstag;
+	public int getAlter() {
+		return alter;
 	}
-	public void setGeburtstag(Date geburtstag) {
-		this.geburtstag = geburtstag;
+	public void setAlter(int alter) {
+		this.alter = alter;
 	}
 	public String getName() {
 		return name;
@@ -44,10 +42,10 @@ public class Koerperdaten {
 	
 	//Konstruktor
 	
-	public Koerperdaten(boolean geschlecht, double groesse, Date geburtstag, String name) {
+	public Koerperdaten(boolean geschlecht, double groesse, int geburtstag, String name) {
 		this.geschlecht = geschlecht;
 		this.groesse = groesse;
-		this.geburtstag = geburtstag;
+		this.alter = geburtstag;
 		this.name = name;
 	}	
 	
