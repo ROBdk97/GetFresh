@@ -1,7 +1,9 @@
 package com.example.fresh.getfresh;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
 
 public class ZweiersplitActivity extends AppCompatActivity
 {
@@ -9,4 +11,11 @@ public class ZweiersplitActivity extends AppCompatActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_2erspli);
     }
+
+    public void onClickErnaehrungsplan(View v)    {
+        Intent intent = new Intent(getApplicationContext(), ErnahrungsplanActivity.class);
+        startActivity(intent);
+    }
+
+
 }

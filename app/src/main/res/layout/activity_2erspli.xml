@@ -21,7 +21,8 @@
         android:layout_marginBottom="16dp"
         android:text="zum ernahrungsplan"
         app:layout_constraintBottom_toBottomOf="parent"
-        tools:layout_editor_absoluteX="99dp" />
+        tools:layout_editor_absoluteX="99dp"
+        android:onClick="onClickErnaehrungsplan"/>
 
     <TextView
         android:id="@+id/textView81"

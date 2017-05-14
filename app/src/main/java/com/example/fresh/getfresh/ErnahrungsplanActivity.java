@@ -1,4 +1,4 @@
-package com.example.benedict.getfresh;
+package com.example.fresh.getfresh;
 
 
 import android.os.Bundle;
@@ -10,51 +10,52 @@ public class ErnahrungsplanActivity extends AppCompatActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_ernahrungsplan);
     }
-    private double gesamtKalorienbedar,groesse,gewicht;
+    private double gesamtKalorienbedar,groesse,gewicht,kalorienbedarf,fett,eiweiss;
     private int alter;
+    private boolean geschlecht;
 
     private double gesamterKalorienbedarfBerechnen()
     {
-        if(mann equal mann)
+        if(geschlecht)//Wenn True(1) dann Man ansonst Frau
         {
-            gesamtKalorienbedar=66+(gewicht*13,8)+(groesse*5.8)+(alter*6.8);
+            return 66+(gewicht*13.8)+(groesse*5.8)+(alter*6.8);
         }
         else
         {
-            gesamtKalorienbedar=665+(gewicht*9.5)+(groesse*1.9)+(alter*4.7);
+            return 665+(gewicht*9.5)+(groesse*1.9)+(alter*4.7);
         }
     }
     private double kohlenhydratebgedarfberechnen()
     {
-        if()
+        if(geschlecht)
         {
-            kohlenhydratebgedarf=gesamtKalorienbedar*kalorienbedarf;
+            return gesamtKalorienbedar*kalorienbedarf;
         }
         else
         {
-            kohlenhydratebgedarf=gesamtKalorienbedar*kalorienbedarf;
+            return gesamtKalorienbedar*kalorienbedarf;
         }
     }
     private double fettbgedarfberechnen()
     {
-        if()
+        if(geschlecht)
         {
-            fettbedarf=gesamtKalorienbedar*fett;
+            return gesamtKalorienbedar*fett;
         }
         else
         {
-            fettbedarf=gesamtKalorienbedar*fett;
+            return gesamtKalorienbedar*fett;
         }
     }
     private double eiweissbedarfberechnen()
     {
-        if()
+        if(geschlecht)
         {
-            eiweissbedarf=gesamtKalorienbedar*eiwess;
+            return gesamtKalorienbedar*eiweiss;
         }
         else
         {
-            eiweissbedarf=gesamtKalorienbedar*eiweiss;
+            return gesamtKalorienbedar*eiweiss;
         }
     }
 
