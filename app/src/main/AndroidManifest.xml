@@ -59,6 +59,10 @@
             android:name=".KoerperdatenActivity"
             android:label="Körperdaten"
             android:screenOrientation="portrait" />
+        <activity
+            android:name=".ErnahrungsplanActivity"
+            android:label="Ernährungsplan"
+            android:screenOrientation="portrait" />
     </application>
 
 </manifest>
