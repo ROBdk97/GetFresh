@@ -17,7 +17,7 @@ public class DreiersplitActivity extends AppCompatActivity
         setContentView(R.layout.activity_3ersplit);
     }
 
-    public void onClickErnaehrungsplan(View v)    {
+    public void onClickErnaehrungsplan3(View v)    {
         Intent intent = new Intent(getApplicationContext(), ErnahrungsplanActivity.class);
         startActivity(intent);
     }

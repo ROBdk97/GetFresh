@@ -16,7 +16,7 @@ public class VierersplitActivity extends AppCompatActivity
         setContentView(R.layout.activity_4ersplit);
     }
 
-    public void onClickErnaehrungsplan(View v)    {
+    public void onClickErnaehrungsplan4(View v)    {
         Intent intent = new Intent(getApplicationContext(), ErnahrungsplanActivity.class);
         startActivity(intent);
     }

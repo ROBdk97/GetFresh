@@ -115,7 +115,8 @@
         android:layout_row="6"
         android:text="Ergebniss"
         tools:layout_editor_absoluteX="143dp"
-        tools:layout_editor_absoluteY="281dp" />
+        tools:layout_editor_absoluteY="281dp"
+        android:onClick="onClickErgebniss"/>
 
     <EditText
         android:id="@+id/field_ergebnis"

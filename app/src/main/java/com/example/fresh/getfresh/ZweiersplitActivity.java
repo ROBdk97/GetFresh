@@ -12,7 +12,7 @@ public class ZweiersplitActivity extends AppCompatActivity
         setContentView(R.layout.activity_2erspli);
     }
 
-    public void onClickErnaehrungsplan(View v)    {
+    public void onClickErnaehrungsplan2(View v)    {
         Intent intent = new Intent(getApplicationContext(), ErnahrungsplanActivity.class);
         startActivity(intent);
     }

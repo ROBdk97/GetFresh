@@ -3,9 +3,10 @@ package com.example.fresh.getfresh.helpjars;
 
 public class Koerperdaten {
 	private boolean geschlecht; 
-	private double groesse;
+	private int groesse;
 	private int alter;
 	private String name;
+	private int gewicht;
 	
 	//Methoden
 	
@@ -21,10 +22,10 @@ public class Koerperdaten {
 	public void setGeschlecht(boolean geschlecht) {
 		this.geschlecht = geschlecht;
 	}
-	public double getGroesse() {
+	public int getGroesse() {
 		return groesse;
 	}
-	public void setGroesse(double groesse) {
+	public void setGroesse(int groesse) {
 		this.groesse = groesse;
 	}
 	public int getAlter() {
@@ -39,14 +40,28 @@ public class Koerperdaten {
 	public void setName(String name) {
 		this.name = name;
 	}
-	
+
+	public int getGewicht() {
+		return gewicht;
+	}
+
+	public void setGewicht(int gewicht) {
+		this.gewicht = gewicht;
+	}
 	//Konstruktor
 	
-	public Koerperdaten(boolean geschlecht, double groesse, int geburtstag, String name) {
+	public Koerperdaten(boolean geschlecht, int groesse, int alter, int gewicht, String name) {
 		this.geschlecht = geschlecht;
 		this.groesse = groesse;
-		this.alter = geburtstag;
+		this.alter = alter;
 		this.name = name;
-	}	
-	
+		this.gewicht = gewicht;
+	}
+
+	public void print(){
+        System.out.println(geschlecht+", "+groesse+", "+alter+", "+gewicht+", "+name);
+    }
+    public String getString(){
+        return (geschlecht+", "+groesse+", "+alter+", "+gewicht+", "+name);
+    }
 }
