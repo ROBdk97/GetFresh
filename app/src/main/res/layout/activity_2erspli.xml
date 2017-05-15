@@ -19,10 +19,11 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
-        android:text="zum ernahrungsplan"
+        android:text=""
+        android:background="@drawable/zum_plan_button"
         app:layout_constraintBottom_toBottomOf="parent"
         tools:layout_editor_absoluteX="99dp"
-        android:onClick="onClickErnaehrungsplan2"/>
+        android:onClick="onClickErnaehrungsplan"/>
 
     <TextView
         android:id="@+id/textView81"
@@ -56,6 +57,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Set:"
+        android:textColor="@android:color/background_dark"
+        android:textStyle="bold"
         tools:layout_editor_absoluteX="113dp"
         tools:layout_editor_absoluteY="81dp" />
 
@@ -74,6 +77,8 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="7dp"
         android:text="Set:"
+        android:textColor="@android:color/background_dark"
+        android:textStyle="bold"
         app:layout_constraintTop_toBottomOf="@+id/textView74"
         tools:layout_editor_absoluteX="113dp" />
 
@@ -83,6 +88,8 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="27dp"
         android:text="2er-Split"
+        android:textColor="@android:color/background_dark"
+        android:textStyle="bold"
         app:layout_constraintTop_toTopOf="parent"
         tools:layout_editor_absoluteX="166dp" />
 
@@ -128,6 +135,8 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="11dp"
         android:text="Set:"
+        android:textColor="@android:color/background_dark"
+        android:textStyle="bold"
         app:layout_constraintTop_toBottomOf="@+id/textView7"
         tools:layout_editor_absoluteX="113dp" />
 
@@ -155,6 +164,8 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:text="Bauch"
+        android:textColor="@android:color/background_dark"
+        android:textStyle="bold"
         app:layout_constraintTop_toBottomOf="@+id/textView62"
         tools:layout_editor_absoluteX="48dp" />
 
