@@ -50,6 +50,7 @@ public class Rezept {
 	}
 
 	public String info(){
+		//System.out.println("\n"+this.name+"\t\t\t\t"+this.kJ+"kcal\n\n\nZutaten:\n\n"+this.zutaten+"\n\nZubereitung:\n\n"+this.schritte+"\n\n Zubereitungszeit:  "+this.zeit+"min");
 		return ("\n"+this.name+"\t\t\t\t"+this.kJ+"kcal\n\n\nZutaten:\n\n"+this.zutaten+"\n\nZubereitung:\n\n"+this.schritte+"\n\n Zubereitungszeit:  "+this.zeit+"min");
 	}
 
