@@ -34,7 +34,7 @@ public class MyDatabase extends SQLiteAssetHelper {
         ArrayList<Rezept> rezeptliste = new ArrayList<>();
         do {
             //System.out.println(c.getString(0)+", "+c.getDouble(1)+", "+c.getString(2)+", "+c.getString(3)+", "+c.getInt(4)+", "+c.getString(5));
-            Rezept r = new Rezept(c.getString(0),c.getInt(1),c.getString(2),c.getString(3),c.getInt(4),c.getString(5));
+            Rezept r = new Rezept(c.getString(0),c.getInt(1),c.getString(2).replaceAll("#","\n"),c.getString(3),c.getInt(4),c.getString(5));
             rezeptliste.add(r);
         }while(c.moveToNext());
         return rezeptliste;

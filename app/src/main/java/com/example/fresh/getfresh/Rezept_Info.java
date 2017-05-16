@@ -1,5 +1,6 @@
 package com.example.fresh.getfresh;
 
+import android.provider.Settings;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.EditText;
