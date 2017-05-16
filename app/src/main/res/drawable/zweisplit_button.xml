@@ -3,12 +3,12 @@
     <item
         android:state_focused="true"
         android:state_pressed="true"
-        android:drawable="@drawable/zsplit_clicked" />
+        android:drawable="@drawable/zsplit_click" />
 
     <item
         android:state_focused="false"
         android:state_pressed="true"
-        android:drawable="@drawable/zsplit_clicked" />
+        android:drawable="@drawable/zsplit_click" />
 
     <item android:drawable="@drawable/zsplit" />
 </selector>

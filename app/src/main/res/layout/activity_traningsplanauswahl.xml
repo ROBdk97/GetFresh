@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-
+    android:background="@drawable/trainingbg"
 
     tools:context="com.example.benedict.getfresh.TraningsplanauswahlActivity">
 
@@ -39,12 +39,14 @@
             android:id="@+id/textView1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="60dp"
             android:layout_marginTop="0dp"
             android:fontFamily="sans-serif-smallcaps"
-            android:text="Wähle deine Traningsart"
-            android:textStyle="bold"
-            android:layout_marginLeft="60dp"
 
+            android:text="Wähle deine Traningsart"
+            android:textSize="18sp"
+
+            android:textStyle="bold"
             app:layout_constraintTop_toTopOf="parent" />
 
         <RadioGroup
@@ -56,6 +58,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="30dp"
             android:text="Muskelaufbau"
+
             app:layout_constraintTop_toBottomOf="@+id/radioButton_abnehmen"
             tools:layout_editor_absoluteX="132dp" />
 
@@ -64,6 +67,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="30dp"
+
             android:text="Abnehmen"
             app:layout_constraintTop_toBottomOf="@+id/textView1"
             tools:layout_editor_absoluteX="143dp" />
@@ -72,10 +76,10 @@
         <Button
             android:id="@+id/button_weiter"
             android:layout_width="200dp"
-            android:layout_height="240dp"
+            android:layout_height="100dp"
             android:layout_marginBottom="170dp"
             android:layout_marginRight="10dp"
-            android:layout_marginTop="0dp"
+            android:layout_marginTop="40dp"
             android:background="@drawable/weiter_button"
             android:onClick="onClickweiter"
             android:text=""

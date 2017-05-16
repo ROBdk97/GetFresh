@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent">
+
 
     <LinearLayout
+    android:background="@drawable/trainingbg"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_weight="1"
@@ -15,50 +15,45 @@
             android:id="@+id/textView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="60dp"
+            android:layout_marginLeft="70dp"
             android:layout_marginTop="40dp"
             android:text="Wie oft willst du trainieren?"
-            android:textColor="@android:color/background_dark"
+
             android:textSize="18sp"
             android:textStyle="bold"
             app:layout_constraintTop_toTopOf="parent"
             tools:layout_editor_absoluteX="109dp" />
 
-        <Button
+    <Button
+        android:id="@+id/button_2ersplit"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="80dp"
+        android:background="@drawable/zweisplit_button"
+        android:onClick="onClick2ersplit"
+        android:text="" />
+
+    <Button
             android:id="@+id/button_3ersplit"
             android:layout_width="200dp"
-            android:layout_height="30dp"
-            android:layout_weight="1"
-            android:gravity="center"
+            android:layout_height="50dp"
+            android:layout_marginLeft="80dp"
+        android:layout_marginTop="50dp"
             android:onClick="onClick3ersplit"
             android:text=""
             android:background="@drawable/dreisplit_button"
-            app:layout_constraintTop_toBottomOf="@+id/button_2ersplit"
-            tools:layout_editor_absoluteX="147dp" />
+           />
 
-        <Button
-            android:id="@+id/button_2ersplit"
-            android:layout_width="100dp"
-            android:layout_height="50dp"
-            android:layout_weight="1"
-            android:gravity="center"
-            android:onClick="onClick2ersplit"
-            android:text=""
-            android:background="@drawable/zweisplit_button"
-            app:layout_constraintTop_toBottomOf="@+id/textView"
-            tools:layout_editor_absoluteX="147dp" />
-
-        <Button
-            android:id="@+id/button_4ersplit"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:gravity="center"
-            android:onClick="onClick4ersplit"
-            android:text=""
-            android:background="@drawable/viersplit_button"
-            app:layout_constraintTop_toBottomOf="@+id/button_3ersplit"
-            tools:layout_editor_absoluteX="147dp" />
-    </LinearLayout>
-
+    <Button
+        android:id="@+id/button_4ersplit"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/viersplit_button"
+        android:onClick="onClick4ersplit"
+        android:text="" />
 </LinearLayout>
+
+
