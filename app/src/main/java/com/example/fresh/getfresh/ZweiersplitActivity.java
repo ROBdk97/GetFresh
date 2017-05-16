@@ -14,6 +14,10 @@ public class ZweiersplitActivity extends AppCompatActivity
 
     public void onClickErnaehrungsplan2(View v)    {
         Intent intent = new Intent(getApplicationContext(), ErnahrungsplanActivity.class);
+        Bundle c = getIntent().getExtras();
+        Bundle b = new Bundle();
+        b.putInt("training",c.getInt("training"));
+        intent.putExtras(b);
         startActivity(intent);
     }
 

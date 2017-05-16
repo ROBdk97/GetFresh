@@ -26,6 +26,8 @@ public class ErnahrungsplanActivity extends AppCompatActivity
         text_gesKal = (TextView)findViewById(R.id.gesKal);
         text_fett = (TextView)findViewById(R.id.fett);
         text_eiweis = (TextView)findViewById(R.id.eiweis);
+        Bundle b = getIntent().getExtras();
+        training=(b.getInt("training") != 0);
         getData();
         berechnen();
     }

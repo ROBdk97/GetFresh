@@ -61,14 +61,5 @@ public class KoerperdatenActivity extends AppCompatActivity {
         field_gewicht.setText(Integer.toString(k.getGewicht()));
         field_groesse.setText(Integer.toString(k.getGroesse()));
     }
-
-    private void update(){
-        MyDatabase db= new MyDatabase(this);
-        Koerperdaten k = db.loadKoerperdaten();
-        ContentValues values = new ContentValues();
-
-// updating row
-
-    }
 }
 

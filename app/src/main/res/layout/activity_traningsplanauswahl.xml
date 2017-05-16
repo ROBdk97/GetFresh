@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="@drawable/trainingbg"
 
-    tools:context="com.example.benedict.getfresh.TraningsplanauswahlActivity">
+    tools:context="com.example.fresh.getfresh.TraningsplanauswahlActivity">
 
     <LinearLayout
         android:layout_width="390dp"

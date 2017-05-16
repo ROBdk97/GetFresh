@@ -18,6 +18,10 @@ public class VierersplitActivity extends AppCompatActivity
 
     public void onClickErnaehrungsplan4(View v)    {
         Intent intent = new Intent(getApplicationContext(), ErnahrungsplanActivity.class);
+        Bundle c = getIntent().getExtras();
+        Bundle b = new Bundle();
+        b.putInt("training",c.getInt("training"));
+        intent.putExtras(b);
         startActivity(intent);
     }
 }
