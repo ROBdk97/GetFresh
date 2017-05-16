@@ -9,9 +9,13 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
-
+import android.content.Context;
+import android.database.sqlite.SQLiteDatabase;
+import android.database.Cursor;
+import android.database.sqlite.SQLiteOpenHelper;
 import com.example.fresh.getfresh.helpjars.Koerperdaten;
 import com.example.fresh.getfresh.helpjars.MyDatabase;
+import android.content.ContentValues;
 
 
 public class KoerperdatenActivity extends AppCompatActivity {
@@ -58,5 +62,13 @@ public class KoerperdatenActivity extends AppCompatActivity {
         field_groesse.setText(Integer.toString(k.getGroesse()));
     }
 
+    private void update(){
+        MyDatabase db= new MyDatabase(this);
+        Koerperdaten k = db.loadKoerperdaten();
+        ContentValues values = new ContentValues();
+
+// updating row
+
+    }
 }
 
