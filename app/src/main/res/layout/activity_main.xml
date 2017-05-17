@@ -8,7 +8,7 @@
     tools:context="com.example.fresh.getfresh.MainActivity">
 
     <LinearLayout
-        android:layout_width="390dp"
+        android:layout_width="match_parent"
         android:layout_height="512dp"
         android:clickable="false"
         android:clipChildren="true"
