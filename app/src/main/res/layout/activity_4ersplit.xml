@@ -195,7 +195,7 @@
             app:layout_editor_absoluteX="112dp" />
 
         <TextView
-            android:id="@+id/textView32"
+            android:id="@+id/set1b"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="TextView"
@@ -204,7 +204,7 @@
             android:layout_marginLeft="8dp" />
 
         <TextView
-            android:id="@+id/textView33"
+            android:id="@+id/set1t"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="TextView"
@@ -213,7 +213,7 @@
             android:layout_marginLeft="8dp" />
 
         <TextView
-            android:id="@+id/textView34"
+            android:id="@+id/set2r"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="TextView"
@@ -222,7 +222,7 @@
             android:layout_marginLeft="8dp" />
 
         <TextView
-            android:id="@+id/textView35"
+            android:id="@+id/set2b"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="TextView"
@@ -231,7 +231,7 @@
             android:layout_marginLeft="8dp" />
 
         <TextView
-            android:id="@+id/textView36"
+            android:id="@+id/set3be"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="TextView"
@@ -240,7 +240,7 @@
             android:layout_marginLeft="8dp" />
 
         <TextView
-            android:id="@+id/textView37"
+            android:id="@+id/set3ba"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="TextView"
@@ -249,13 +249,13 @@
             android:layout_marginLeft="8dp" />
 
         <TextView
-            android:id="@+id/textView38"
+            android:id="@+id/set4s"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
             android:text="TextView"
-            app:layout_editor_absoluteY="362dp"
             app:layout_constraintLeft_toRightOf="@+id/textView31"
-            android:layout_marginLeft="8dp" />
+            app:layout_editor_absoluteY="362dp" />
 
         <TextView
             android:id="@+id/textView39"
@@ -263,7 +263,7 @@
             android:layout_height="wrap_content"
             android:text="Wiederholungen:"
             app:layout_editor_absoluteY="82dp"
-            app:layout_constraintLeft_toRightOf="@+id/textView32"
+            app:layout_constraintLeft_toRightOf="@+id/set1b"
             android:layout_marginLeft="8dp" />
 
         <TextView
@@ -272,7 +272,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="9dp"
             android:text="Wiederholungen:"
-            app:layout_constraintLeft_toRightOf="@+id/textView33"
+            app:layout_constraintLeft_toRightOf="@+id/set1t"
             app:layout_editor_absoluteY="107dp" />
 
         <TextView
@@ -281,7 +281,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="8dp"
             android:text="Wiederholungen:"
-            app:layout_constraintLeft_toRightOf="@+id/textView34"
+            app:layout_constraintLeft_toRightOf="@+id/set2r"
             app:layout_editor_absoluteY="175dp" />
 
         <TextView
@@ -290,7 +290,7 @@
             android:layout_height="wrap_content"
             android:text="Wiederholungen:"
             app:layout_editor_absoluteY="201dp"
-            app:layout_constraintLeft_toRightOf="@+id/textView35"
+            app:layout_constraintLeft_toRightOf="@+id/set2b"
             android:layout_marginLeft="9dp" />
 
         <TextView
@@ -299,7 +299,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="9dp"
             android:text="Wiederholungen:"
-            app:layout_constraintLeft_toRightOf="@+id/textView36"
+            app:layout_constraintLeft_toRightOf="@+id/set3be"
             app:layout_editor_absoluteY="269dp" />
 
         <TextView
@@ -308,7 +308,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="8dp"
             android:text="Wiederholungen:"
-            app:layout_constraintLeft_toRightOf="@+id/textView37"
+            app:layout_constraintLeft_toRightOf="@+id/set3ba"
             app:layout_editor_absoluteY="294dp" />
 
         <TextView
@@ -320,67 +320,67 @@
             app:layout_editor_absoluteY="361dp" />
 
         <TextView
-            android:id="@+id/textView46"
+            android:id="@+id/wid1b"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
             android:text="TextView"
-            app:layout_editor_absoluteY="82dp"
             app:layout_constraintLeft_toRightOf="@+id/textView39"
-            android:layout_marginLeft="8dp" />
+            app:layout_editor_absoluteY="82dp" />
 
         <TextView
-            android:id="@+id/textView47"
+            android:id="@+id/wid1t"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
             android:text="TextView"
-            app:layout_editor_absoluteY="107dp"
             app:layout_constraintLeft_toRightOf="@+id/textView40"
-            android:layout_marginLeft="8dp" />
+            app:layout_editor_absoluteY="107dp" />
 
         <TextView
-            android:id="@+id/textView48"
+            android:id="@+id/wid2r"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
             android:text="TextView"
-            app:layout_editor_absoluteY="175dp"
             app:layout_constraintLeft_toRightOf="@+id/textView41"
-            android:layout_marginLeft="8dp" />
+            app:layout_editor_absoluteY="175dp" />
 
         <TextView
-            android:id="@+id/textView49"
+            android:id="@+id/wid2b"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="6dp"
             android:text="TextView"
-            app:layout_editor_absoluteY="201dp"
             app:layout_constraintLeft_toRightOf="@+id/textView42"
-            android:layout_marginLeft="6dp" />
+            app:layout_editor_absoluteY="201dp" />
 
         <TextView
-            android:id="@+id/textView50"
+            android:id="@+id/wid3be"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
             android:text="TextView"
-            app:layout_editor_absoluteY="269dp"
             app:layout_constraintLeft_toRightOf="@+id/textView43"
-            android:layout_marginLeft="8dp" />
+            app:layout_editor_absoluteY="269dp" />
 
         <TextView
-            android:id="@+id/textView51"
+            android:id="@+id/wid3ba"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
             android:text="TextView"
-            app:layout_editor_absoluteY="294dp"
             app:layout_constraintLeft_toRightOf="@+id/textView44"
-            android:layout_marginLeft="8dp" />
+            app:layout_editor_absoluteY="294dp" />
 
         <TextView
-            android:id="@+id/textView52"
+            android:id="@+id/wid4s"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
             android:text="TextView"
-            app:layout_editor_absoluteY="362dp"
             app:layout_constraintLeft_toRightOf="@+id/textView45"
-            android:layout_marginLeft="8dp" />
+            app:layout_editor_absoluteY="362dp" />
 
     </android.support.constraint.ConstraintLayout>
 
