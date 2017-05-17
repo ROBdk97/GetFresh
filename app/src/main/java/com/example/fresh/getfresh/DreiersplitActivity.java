@@ -74,13 +74,17 @@ public class DreiersplitActivity extends AppCompatActivity
     }
 
     private void ausfuellen(){
-        System.out.println("#1");
         set1r.setText(db.getTraining(auf,"Ruecken").getSaetze());
         wid1r.setText(db.getTraining(auf,"Ruecken").getWiederholungen());
-        System.out.println("#2");
-        set1t.setText(db.getTraining(auf,"Trizeps").getSaetze());
-        wid1t.setText(db.getTraining(auf,"Trizeps").getWiederholungen());
-        System.out.println("#3");
+        if (auf) {
+            set1t.setText(db.getTraining(auf, "Trizeps").getSaetze());
+            wid1t.setText(db.getTraining(auf, "Trizeps").getWiederholungen());
+            set3bi.setText(db.getTraining(auf,"Bizeps").getSaetze());
+            wid3bi.setText(db.getTraining(auf,"Bizeps").getWiederholungen());
+        }else {
+            set1t.setText(db.getTraining(auf, "Arme").getSaetze());
+            wid1t.setText(db.getTraining(auf, "Arme").getWiederholungen());
+        }
         set1b.setText(db.getTraining(auf,"Bauch").getSaetze());
         wid1b.setText(db.getTraining(auf,"Bauch").getWiederholungen());
         set2b.setText(db.getTraining(auf,"Beine").getSaetze());
@@ -89,7 +93,5 @@ public class DreiersplitActivity extends AppCompatActivity
         wid2s.setText(db.getTraining(auf,"Schultern").getWiederholungen());
         set3b.setText(db.getTraining(auf,"Brust").getSaetze());
         wid3b.setText(db.getTraining(auf,"Brust").getWiederholungen());
-        set3bi.setText(db.getTraining(auf,"Bizeps").getSaetze());
-        wid3bi.setText(db.getTraining(auf,"Bizeps").getWiederholungen());
     }
 }

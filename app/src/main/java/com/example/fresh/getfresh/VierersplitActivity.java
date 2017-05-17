@@ -43,7 +43,7 @@ public class VierersplitActivity extends AppCompatActivity
         set2r=(TextView)findViewById(R.id.set2r);
         wid2r=(TextView)findViewById(R.id.wid2r);
         set2b=(TextView)findViewById(R.id.set2b);
-        wid2b=(TextView)findViewById(R.id.wid2b);
+        wid2b=(TextView)findViewById(R.id.wd2b);
         set3be=(TextView)findViewById(R.id.set3be);
         wid3be=(TextView)findViewById(R.id.wid3be);
         set3ba=(TextView)findViewById(R.id.set3ba);
@@ -53,7 +53,7 @@ public class VierersplitActivity extends AppCompatActivity
 
         db = new MyDatabase(this);
         Bundle c = getIntent().getExtras();
-        auf=c.getInt("training") != 0;
+        auf=c.getInt("training")!= 0;
         ausfuellen();
     }
 
@@ -69,12 +69,17 @@ public class VierersplitActivity extends AppCompatActivity
     private void ausfuellen(){
         set1b.setText(db.getTraining(auf,"Brust").getSaetze());
         wid1b.setText(db.getTraining(auf,"Brust").getWiederholungen());
-        set1t.setText(db.getTraining(auf,"Trizeps").getSaetze());
-        wid1t.setText(db.getTraining(auf,"Trizeps").getWiederholungen());
+        if (auf) {
+            set1t.setText(db.getTraining(auf, "Trizeps").getSaetze());
+            wid1t.setText(db.getTraining(auf, "Trizeps").getWiederholungen());
+            set2b.setText(db.getTraining(auf,"Bizeps").getSaetze());
+            wid2b.setText(db.getTraining(auf,"Bizeps").getWiederholungen());
+        }else {
+            set1t.setText(db.getTraining(auf, "Arme").getSaetze());
+            wid1t.setText(db.getTraining(auf, "Arme").getWiederholungen());
+        }
         set2r.setText(db.getTraining(auf,"Ruecken").getSaetze());
         wid2r.setText(db.getTraining(auf,"Ruecken").getWiederholungen());
-        set2b.setText(db.getTraining(auf,"Bizeps").getSaetze());
-        wid2b.setText(db.getTraining(auf,"Bizeps").getWiederholungen());
         set3be.setText(db.getTraining(auf,"Beine").getSaetze());
         wid3be.setText(db.getTraining(auf,"Beine").getWiederholungen());
         set3ba.setText(db.getTraining(auf,"Bauch").getSaetze());
