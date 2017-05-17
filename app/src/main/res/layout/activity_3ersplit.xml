@@ -12,6 +12,277 @@
         android:layout_height="match_parent">
 
         <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="3er-Split"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="166dp" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1 Tag: Rücken, Trizeps, Bauch"
+            tools:layout_editor_absoluteX="24dp"
+            tools:layout_editor_absoluteY="72dp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Rücken"
+            app:layout_constraintTop_toBottomOf="@+id/textView8"
+            tools:layout_editor_absoluteX="31dp" />
+
+        <TextView
+            android:id="@+id/textView83"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="33dp"
+            android:text="Set:"
+            app:layout_constraintLeft_toRightOf="@+id/textView2"
+            tools:layout_editor_absoluteY="98dp"
+            android:layout_marginStart="23dp" />
+
+        <TextView
+            android:id="@+id/set1r"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="0dp"
+            android:text="TextView"
+            app:layout_constraintLeft_toRightOf="@+id/textView83"
+            tools:layout_editor_absoluteY="98dp"
+            android:layout_marginStart="9dp" />
+
+        <TextView
+            android:id="@+id/textView111"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="-7dp"
+            android:text="Wiederholungen:"
+            app:layout_constraintLeft_toRightOf="@+id/set1r"
+            tools:layout_editor_absoluteY="98dp"
+            android:layout_marginStart="8dp" />
+
+        <TextView
+            android:id="@+id/wid1r"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="-4dp"
+            android:text="TextView"
+            app:layout_constraintLeft_toRightOf="@+id/textView111"
+            tools:layout_editor_absoluteY="95dp"
+            android:layout_marginStart="8dp" />
+
+        <TextView
+            android:id="@+id/textView23"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Trizeps"
+            app:layout_constraintTop_toBottomOf="@+id/textView2"
+            tools:layout_editor_absoluteX="31dp" />
+
+        <TextView
+            android:id="@+id/textView97"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="33dp"
+            android:text="Set:"
+            app:layout_constraintLeft_toRightOf="@+id/textView23"
+            tools:layout_editor_absoluteY="121dp"
+            android:layout_marginStart="23dp" />
+
+        <TextView
+            android:id="@+id/set1t"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="0dp"
+            android:text="TextView"
+            app:layout_constraintLeft_toRightOf="@+id/textView97"
+            tools:layout_editor_absoluteY="122dp"
+            android:layout_marginStart="8dp" />
+
+        <TextView
+            android:id="@+id/textView112"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="-1dp"
+            android:text="Wiederholungen:"
+            app:layout_constraintLeft_toRightOf="@+id/set1t"
+            tools:layout_editor_absoluteY="121dp"
+            android:layout_marginStart="8dp" />
+
+        <TextView
+            android:id="@+id/wid1t"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="3dp"
+            android:text="TextView"
+            app:layout_constraintLeft_toRightOf="@+id/textView112"
+            tools:layout_editor_absoluteY="120dp"
+            android:layout_marginStart="8dp" />
+
+        <TextView
+            android:id="@+id/textView24"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="9dp"
+            android:text="Bauch"
+            app:layout_constraintTop_toBottomOf="@+id/textView23"
+            tools:layout_editor_absoluteX="31dp" />
+
+        <TextView
+            android:id="@+id/textView99"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:text="Set:"
+            app:layout_constraintLeft_toRightOf="@+id/textView24"
+            tools:layout_editor_absoluteY="146dp"
+            android:layout_marginStart="30dp" />
+
+        <TextView
+            android:id="@+id/set1b"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="0dp"
+            android:text="TextView"
+            app:layout_constraintLeft_toRightOf="@+id/textView99"
+            tools:layout_editor_absoluteY="146dp"
+            android:layout_marginStart="7dp" />
+
+        <TextView
+            android:id="@+id/textView113"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="0dp"
+            android:text="Wiederholungen:"
+            app:layout_constraintLeft_toRightOf="@+id/set1b"
+            tools:layout_editor_absoluteY="146dp"
+            android:layout_marginStart="10dp" />
+
+        <TextView
+            android:id="@+id/wid1b"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="-4dp"
+            android:text="TextView"
+            app:layout_constraintLeft_toRightOf="@+id/textView113"
+            tools:layout_editor_absoluteY="144dp"
+            android:layout_marginStart="8dp" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:text="2 Tag: Beine, Schultern"
+            app:layout_constraintTop_toBottomOf="@+id/textView24"
+            tools:layout_editor_absoluteX="31dp" />
+
+        <TextView
+            android:id="@+id/textView25"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="17dp"
+            android:text="Beine"
+            app:layout_constraintTop_toBottomOf="@+id/textView9"
+            tools:layout_editor_absoluteX="31dp" />
+
+        <TextView
+            android:id="@+id/textView100"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="58dp"
+            android:text="Set:"
+            app:layout_constraintLeft_toRightOf="@+id/textView25"
+            tools:layout_editor_absoluteY="222dp"
+            android:layout_marginStart="35dp" />
+
+        <TextView
+            android:id="@+id/set2b"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="0dp"
+            android:text="TextView"
+            app:layout_constraintLeft_toRightOf="@+id/textView100"
+            tools:layout_editor_absoluteY="222dp"
+            android:layout_marginStart="8dp" />
+
+        <TextView
+            android:id="@+id/textView114"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="18dp"
+            android:text="Wiederholungen:"
+            app:layout_constraintLeft_toRightOf="@+id/set2b"
+            tools:layout_editor_absoluteY="222dp"
+            android:layout_marginStart="8dp" />
+
+        <TextView
+            android:id="@+id/wid2b"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="22dp"
+            android:text="TextView"
+            app:layout_constraintLeft_toRightOf="@+id/textView114"
+            tools:layout_editor_absoluteY="222dp"
+            android:layout_marginStart="8dp" />
+
+        <TextView
+            android:id="@+id/textView53"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Schultern"
+            app:layout_constraintTop_toBottomOf="@+id/textView25"
+            tools:layout_editor_absoluteX="31dp" />
+
+        <TextView
+            android:id="@+id/textView101"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:text="Set:"
+            app:layout_constraintLeft_toRightOf="@+id/textView53"
+            tools:layout_editor_absoluteY="247dp"
+            android:layout_marginStart="9dp" />
+
+        <TextView
+            android:id="@+id/set2s"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="0dp"
+            android:text="TextView"
+            app:layout_constraintLeft_toRightOf="@+id/textView101"
+            tools:layout_editor_absoluteY="247dp"
+            android:layout_marginStart="8dp" />
+
+        <TextView
+            android:id="@+id/textView115"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="9dp"
+            android:text="Wiederholungen:"
+            app:layout_constraintLeft_toRightOf="@+id/set2s"
+            tools:layout_editor_absoluteY="247dp"
+            android:layout_marginStart="8dp" />
+
+        <TextView
+            android:id="@+id/wid2s"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="29dp"
+            android:text="TextView"
+            app:layout_constraintLeft_toRightOf="@+id/textView115"
+            tools:layout_editor_absoluteY="247dp"
+            android:layout_marginStart="8dp" />
+
+        <TextView
             android:id="@+id/textView10"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -21,356 +292,112 @@
             app:layout_constraintTop_toBottomOf="@+id/textView53" />
 
         <TextView
-            android:id="@+id/textView9"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="2 Tag: Beine, Schultern"
-            tools:layout_editor_absoluteX="31dp"
-            android:layout_marginTop="25dp"
-            app:layout_constraintTop_toBottomOf="@+id/textView24" />
-
-        <TextView
-            android:id="@+id/textView8"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="1 Tag: Rücken, Trizeps, Bauch"
-            tools:layout_editor_absoluteX="31dp"
-            tools:layout_editor_absoluteY="65dp" />
-
-        <Button
-            android:id="@+id/button6"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text=""
-            android:background="@drawable/zum_kochbuch_button"
-            tools:layout_editor_absoluteX="99dp"
-            app:layout_constraintBottom_toBottomOf="parent"
-            android:layout_marginBottom="16dp"
-            android:onClick="onClickErnaehrungsplan3"/>
-
-        <TextView
-            android:id="@+id/textView4"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="3er-Split"
-            tools:layout_editor_absoluteX="166dp"
-            app:layout_constraintTop_toTopOf="parent"
-            android:layout_marginTop="16dp" />
-
-        <TextView
-            android:id="@+id/textView2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="9dp"
-            android:text="Rücken"
-            app:layout_constraintTop_toBottomOf="@+id/textView8"
-            tools:layout_editor_absoluteX="41dp" />
-
-        <TextView
-            android:id="@+id/textView23"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="7dp"
-            android:text="Trizeps"
-            app:layout_constraintTop_toBottomOf="@+id/textView2"
-            tools:layout_editor_absoluteX="41dp" />
-
-        <TextView
-            android:id="@+id/textView24"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="8dp"
-            android:text="Bauch"
-            app:layout_constraintTop_toBottomOf="@+id/textView23"
-            tools:layout_editor_absoluteX="41dp" />
-
-        <TextView
-            android:id="@+id/textView25"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="11dp"
-            android:text="Beine"
-            app:layout_constraintTop_toBottomOf="@+id/textView9"
-            tools:layout_editor_absoluteX="41dp" />
-
-        <TextView
-            android:id="@+id/textView53"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="8dp"
-            android:text="Schultern"
-            app:layout_constraintTop_toBottomOf="@+id/textView25"
-            tools:layout_editor_absoluteX="41dp" />
-
-        <TextView
             android:id="@+id/textView54"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="12dp"
+            android:layout_marginTop="10dp"
             android:text="Brust"
             app:layout_constraintTop_toBottomOf="@+id/textView10"
-            tools:layout_editor_absoluteX="41dp" />
-
-        <TextView
-            android:id="@+id/textView55"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="8dp"
-            android:text="Bizeps "
-            app:layout_constraintTop_toBottomOf="@+id/textView54"
-            tools:layout_editor_absoluteX="41dp" />
-
-        <TextView
-            android:id="@+id/textView83"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="23dp"
-            android:text="Set:"
-            app:layout_constraintLeft_toRightOf="@+id/textView2"
-            tools:layout_editor_absoluteY="91dp" />
-
-        <TextView
-            android:id="@+id/textView97"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="23dp"
-            android:text="Set:"
-            app:layout_constraintLeft_toRightOf="@+id/textView23"
-            tools:layout_editor_absoluteY="114dp" />
-
-        <TextView
-            android:id="@+id/textView99"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="30dp"
-            android:text="Set:"
-            app:layout_constraintLeft_toRightOf="@+id/textView24"
-            tools:layout_editor_absoluteY="139dp" />
-
-        <TextView
-            android:id="@+id/textView100"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Set:"
-            tools:layout_editor_absoluteY="208dp"
-            app:layout_constraintLeft_toRightOf="@+id/textView25"
-            android:layout_marginLeft="35dp" />
-
-        <TextView
-            android:id="@+id/textView101"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Set:"
-            tools:layout_editor_absoluteY="232dp"
-            app:layout_constraintLeft_toRightOf="@+id/textView53"
-            android:layout_marginLeft="9dp" />
+            tools:layout_editor_absoluteX="31dp" />
 
         <TextView
             android:id="@+id/textView102"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="31dp"
             android:text="Set:"
-            tools:layout_editor_absoluteY="302dp"
             app:layout_constraintLeft_toRightOf="@+id/textView54"
-            android:layout_marginLeft="36dp" />
+            tools:layout_editor_absoluteY="315dp"
+            android:layout_marginStart="36dp" />
+
+        <TextView
+            android:id="@+id/set3b"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="7dp"
+            android:text="TextView"
+            app:layout_constraintLeft_toRightOf="@+id/textView102"
+            tools:layout_editor_absoluteY="316dp"
+            android:layout_marginStart="8dp" />
+
+        <TextView
+            android:id="@+id/textView116"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="-8dp"
+            android:text="Wiederholungen:"
+            app:layout_constraintLeft_toRightOf="@+id/set3b"
+            tools:layout_editor_absoluteY="316dp"
+            android:layout_marginStart="8dp" />
+
+        <TextView
+            android:id="@+id/wid3b"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:text="TextView"
+            app:layout_constraintLeft_toRightOf="@+id/textView116"
+            tools:layout_editor_absoluteY="316dp"
+            android:layout_marginStart="8dp" />
+
+        <TextView
+            android:id="@+id/textView55"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="9dp"
+            android:text="Bizeps "
+            app:layout_constraintTop_toBottomOf="@+id/textView54"
+            tools:layout_editor_absoluteX="31dp" />
 
         <TextView
             android:id="@+id/textView103"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Set:"
-            tools:layout_editor_absoluteY="327dp"
+            tools:layout_editor_absoluteY="341dp"
             app:layout_constraintLeft_toRightOf="@+id/textView55"
-            android:layout_marginLeft="24dp" />
+            android:layout_marginLeft="24dp"
+            android:layout_marginStart="24dp" />
 
         <TextView
-            android:id="@+id/textView104"
+            android:id="@+id/set3bi"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="TextView"
-            tools:layout_editor_absoluteY="91dp"
-            app:layout_constraintLeft_toRightOf="@+id/textView83"
-            android:layout_marginLeft="9dp" />
-
-        <TextView
-            android:id="@+id/textView105"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="TextView"
-            tools:layout_editor_absoluteY="115dp"
-            app:layout_constraintLeft_toRightOf="@+id/textView97"
-            android:layout_marginLeft="8dp" />
-
-        <TextView
-            android:id="@+id/textView106"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="TextView"
-            tools:layout_editor_absoluteY="139dp"
-            app:layout_constraintLeft_toRightOf="@+id/textView99"
-            android:layout_marginLeft="7dp" />
-
-        <TextView
-            android:id="@+id/textView107"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="TextView"
-            tools:layout_editor_absoluteY="208dp"
-            app:layout_constraintLeft_toRightOf="@+id/textView100"
-            android:layout_marginLeft="8dp" />
-
-        <TextView
-            android:id="@+id/textView108"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="TextView"
-            tools:layout_editor_absoluteY="233dp"
-            app:layout_constraintLeft_toRightOf="@+id/textView101"
-            android:layout_marginLeft="8dp" />
-
-        <TextView
-            android:id="@+id/textView109"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="TextView"
-            tools:layout_editor_absoluteY="300dp"
-            app:layout_constraintLeft_toRightOf="@+id/textView102"
-            android:layout_marginLeft="8dp" />
-
-        <TextView
-            android:id="@+id/textView110"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="TextView"
-            tools:layout_editor_absoluteY="326dp"
+            tools:layout_editor_absoluteY="341dp"
             app:layout_constraintLeft_toRightOf="@+id/textView103"
-            android:layout_marginLeft="8dp" />
-
-        <TextView
-            android:id="@+id/textView111"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="8dp"
-            android:text="Wiederholungen:"
-            app:layout_constraintLeft_toRightOf="@+id/textView104"
-            tools:layout_editor_absoluteY="91dp" />
-
-        <TextView
-            android:id="@+id/textView112"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="8dp"
-            android:text="Wiederholungen:"
-            app:layout_constraintLeft_toRightOf="@+id/textView105"
-            tools:layout_editor_absoluteY="114dp" />
-
-        <TextView
-            android:id="@+id/textView113"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="10dp"
-            android:text="Wiederholungen:"
-            app:layout_constraintLeft_toRightOf="@+id/textView106"
-            tools:layout_editor_absoluteY="139dp" />
-
-        <TextView
-            android:id="@+id/textView114"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="8dp"
-            android:text="Wiederholungen:"
-            app:layout_constraintLeft_toRightOf="@+id/textView107"
-            tools:layout_editor_absoluteY="208dp" />
-
-        <TextView
-            android:id="@+id/textView115"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="8dp"
-            android:text="Wiederholungen:"
-            app:layout_constraintLeft_toRightOf="@+id/textView108"
-            tools:layout_editor_absoluteY="232dp" />
-
-        <TextView
-            android:id="@+id/textView116"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="8dp"
-            android:text="Wiederholungen:"
-            app:layout_constraintLeft_toRightOf="@+id/textView109"
-            tools:layout_editor_absoluteY="299dp" />
+            android:layout_marginLeft="16dp"
+            android:layout_marginStart="8dp" />
 
         <TextView
             android:id="@+id/textView117"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="8dp"
+            android:layout_marginLeft="1dp"
             android:text="Wiederholungen:"
-            app:layout_constraintLeft_toRightOf="@+id/textView110"
-            tools:layout_editor_absoluteY="327dp" />
+            app:layout_constraintLeft_toRightOf="@+id/set3bi"
+            tools:layout_editor_absoluteY="341dp"
+            android:layout_marginStart="8dp" />
 
         <TextView
-            android:id="@+id/textView118"
+            android:id="@+id/wid3bi"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="-7dp"
             android:text="TextView"
-            tools:layout_editor_absoluteY="88dp"
-            app:layout_constraintLeft_toRightOf="@+id/textView111"
-            android:layout_marginLeft="8dp" />
-
-        <TextView
-            android:id="@+id/textView119"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="TextView"
-            tools:layout_editor_absoluteY="113dp"
-            app:layout_constraintLeft_toRightOf="@+id/textView112"
-            android:layout_marginLeft="8dp" />
-
-        <TextView
-            android:id="@+id/textView120"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="TextView"
-            tools:layout_editor_absoluteY="137dp"
-            app:layout_constraintLeft_toRightOf="@+id/textView113"
-            android:layout_marginLeft="8dp" />
-
-        <TextView
-            android:id="@+id/textView121"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="TextView"
-            tools:layout_editor_absoluteY="209dp"
-            app:layout_constraintLeft_toRightOf="@+id/textView114"
-            android:layout_marginLeft="8dp" />
-
-        <TextView
-            android:id="@+id/textView122"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="TextView"
-            tools:layout_editor_absoluteY="232dp"
-            app:layout_constraintLeft_toRightOf="@+id/textView115"
-            android:layout_marginLeft="8dp" />
-
-        <TextView
-            android:id="@+id/textView123"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="TextView"
-            tools:layout_editor_absoluteY="302dp"
-            app:layout_constraintLeft_toRightOf="@+id/textView116"
-            android:layout_marginLeft="8dp" />
-
-        <TextView
-            android:id="@+id/textView124"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="TextView"
-            tools:layout_editor_absoluteY="325dp"
             app:layout_constraintLeft_toRightOf="@+id/textView117"
-            android:layout_marginLeft="8dp" />
+            tools:layout_editor_absoluteY="341dp"
+            android:layout_marginStart="8dp" />
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/zum_kochbuch_button"
+            android:onClick="onClickErnaehrungsplan3"
+            android:text=""
+            app:layout_constraintBottom_toBottomOf="parent"
+            tools:layout_editor_absoluteX="0dp" />
 
     </android.support.constraint.ConstraintLayout>
 </LinearLayout>

@@ -86,5 +86,21 @@ public class MyDatabase extends SQLiteAssetHelper {
         return trainingsliste;
     }
 
+    public Training getTraining(boolean trainingsart,String mtyp){
+        SQLiteDatabase db = getReadableDatabase();
+        SQLiteQueryBuilder qb = new SQLiteQueryBuilder();
+        if (trainingsart) {
+            qb.setTables("Training_aufbau");
+        }
+        else {
+            qb.setTables("Training_abnehmen");
+        }
+        Cursor c = qb.query(db,null,("Muskelgruppe = '"+mtyp+"'"),null,null,null,null);
+        c.moveToFirst();
+        Training t = new Training(c.getString(0),c.getString(1),c.getString(2),c.getString(3),c.getString(4),c.getString(5),c.getInt(6));
+        t.printT();
+        return  t;
+    }
+
 
 }
