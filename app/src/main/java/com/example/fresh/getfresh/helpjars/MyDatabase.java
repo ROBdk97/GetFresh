@@ -66,5 +66,25 @@ public class MyDatabase extends SQLiteAssetHelper {
         return  k;
     }
 
+    public ArrayList<Training> loadUebungen(boolean trainingsart){
+        SQLiteDatabase db = getReadableDatabase();
+        SQLiteQueryBuilder qb = new SQLiteQueryBuilder();
+        if (trainingsart) {
+            qb.setTables("Training_aufbau");
+        }
+        else {
+            qb.setTables("Training_abnehmen");
+        }
+        Cursor c = qb.query(db,null,null,null,null,null,null);
+        c.moveToFirst();
+        ArrayList<Training> trainingsliste = new ArrayList<>();
+        do {
+            Training t = new Training(c.getString(0),c.getString(1),c.getString(2),c.getString(3),c.getString(4),c.getString(5),c.getInt(6));
+            trainingsliste.add(t);
+            t.printT();
+        }while(c.moveToNext());
+        return trainingsliste;
+    }
+
 
 }
