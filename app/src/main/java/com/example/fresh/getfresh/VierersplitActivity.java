@@ -8,7 +8,9 @@ import android.widget.TextView;
 
 import com.example.fresh.getfresh.helpjars.MyDatabase;
 
-
+/**
+ * Created by Benedict on 06.05.2017.
+ */
 
 public class VierersplitActivity extends AppCompatActivity
 {
@@ -34,20 +36,20 @@ public class VierersplitActivity extends AppCompatActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_4ersplit);
 
-        set1b=(TextView)findViewById(R.id.textView32);
-        wid1b=(TextView)findViewById(R.id.textView46);
-        set1t=(TextView)findViewById(R.id.textView33);
-        wid1t=(TextView)findViewById(R.id.textView47);
-        set2r=(TextView)findViewById(R.id.textView34);
-        wid2r=(TextView)findViewById(R.id.textView48);
-        set2b=(TextView)findViewById(R.id.textView35);
-        wid2b=(TextView)findViewById(R.id.textView49);
-        set3be=(TextView)findViewById(R.id.textView36);
-        wid3be=(TextView)findViewById(R.id.textView50);
-        set3ba=(TextView)findViewById(R.id.textView37);
-        wid3ba=(TextView)findViewById(R.id.textView51);
-        set4s=(TextView)findViewById(R.id.textView38);
-        wid4s=(TextView)findViewById(R.id.textView52);
+        set1b=(TextView)findViewById(R.id.set1b);
+        wid1b=(TextView)findViewById(R.id.wid1b);
+        set1t=(TextView)findViewById(R.id.set1t);
+        wid1t=(TextView)findViewById(R.id.wid1t);
+        set2r=(TextView)findViewById(R.id.set2r);
+        wid2r=(TextView)findViewById(R.id.wid2r);
+        set2b=(TextView)findViewById(R.id.set2b);
+        wid2b=(TextView)findViewById(R.id.wid2b);
+        set3be=(TextView)findViewById(R.id.set3be);
+        wid3be=(TextView)findViewById(R.id.wid3be);
+        set3ba=(TextView)findViewById(R.id.set3ba);
+        wid3ba=(TextView)findViewById(R.id.wid3ba);
+        set4s=(TextView)findViewById(R.id.set4s);
+        wid4s=(TextView)findViewById(R.id.wid4s);
 
         db = new MyDatabase(this);
         Bundle c = getIntent().getExtras();
