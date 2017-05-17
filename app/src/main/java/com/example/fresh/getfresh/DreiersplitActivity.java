@@ -22,39 +22,39 @@ public class DreiersplitActivity extends AppCompatActivity
     MyDatabase db;
 
     //Textviews
-    TextView set1r;
-    TextView wid1r;
-    TextView set1t;
-    TextView wid1t;
-    TextView set1b;
-    TextView wid1b;
-    TextView set2b;
-    TextView wid2b;
-    TextView set2s;
-    TextView wid2s;
-    TextView set3b;
-    TextView wid3b;
-    TextView set3bi;
-    TextView wid3bi;
+    private TextView set1r;
+    private TextView wid1r;
+    private TextView set1t;
+    private TextView wid1t;
+    private TextView set1b;
+    private TextView wid1b;
+    private TextView set2b;
+    private TextView wid2b;
+    private TextView set2s;
+    private TextView wid2s;
+    private TextView set3b;
+    private TextView wid3b;
+    private TextView set3bi;
+    private TextView wid3bi;
 
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_3ersplit);
         //Text
-        TextView set1r=(TextView)findViewById(R.id.set1r);
-        TextView wid1r=(TextView)findViewById(R.id.wid1r);
-        TextView set1t=(TextView)findViewById(R.id.set1t);
-        TextView wid1t=(TextView)findViewById(R.id.wid1t);
-        TextView set1b=(TextView)findViewById(R.id.set1b);
-        TextView wid1b=(TextView)findViewById(R.id.wid1b);
-        TextView set2b=(TextView)findViewById(R.id.set2b);
-        TextView wid2b=(TextView)findViewById(R.id.wid2b);
-        TextView set2s=(TextView)findViewById(R.id.set2s);
-        TextView wid2s=(TextView)findViewById(R.id.wid2s);
-        TextView set3b=(TextView)findViewById(R.id.set3b);
-        TextView wid3b=(TextView)findViewById(R.id.wid3b);
-        TextView set3bi=(TextView)findViewById(R.id.set3bi);
-        TextView wid3bi=(TextView)findViewById(R.id.set3bi);
+        set1r=(TextView)findViewById(R.id.set1r);
+        wid1r=(TextView)findViewById(R.id.wid1r);
+        set1t=(TextView)findViewById(R.id.set1t);
+        wid1t=(TextView)findViewById(R.id.wid1t);
+        set1b=(TextView)findViewById(R.id.set1b);
+        wid1b=(TextView)findViewById(R.id.wid1b);
+        set2b=(TextView)findViewById(R.id.set2b);
+        wid2b=(TextView)findViewById(R.id.wid2b);
+        set2s=(TextView)findViewById(R.id.set2s);
+        wid2s=(TextView)findViewById(R.id.wid2s);
+        set3b=(TextView)findViewById(R.id.set3b);
+        wid3b=(TextView)findViewById(R.id.wid3b);
+        set3bi=(TextView)findViewById(R.id.set3bi);
+        wid3bi=(TextView)findViewById(R.id.set3bi);
 
 
         //#####
