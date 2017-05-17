@@ -25,7 +25,6 @@ public class KoerperdatenActivity extends AppCompatActivity {
     EditText field_alter;
     EditText field_groesse;
     EditText field_gewicht;
-    EditText field_ergebnis;
 
 
     @Override
@@ -40,7 +39,6 @@ public class KoerperdatenActivity extends AppCompatActivity {
         field_alter = (EditText) findViewById(R.id.field_alter);
         field_groesse = (EditText) findViewById(R.id.field_groesse);
         field_gewicht = (EditText) findViewById(R.id.field_gewicht);
-        field_ergebnis = (EditText) findViewById(R.id.field_ergebnis);
 
 
         lade();
@@ -55,7 +53,6 @@ public class KoerperdatenActivity extends AppCompatActivity {
     private void lade(){
         MyDatabase db= new MyDatabase(this);
         Koerperdaten k = db.loadKoerperdaten();
-        //field_ergebnis.setText(k.getString());
         field_maennlich.setChecked(k.isGeschlecht());
         field_alter.setText(Integer.toString(k.getAlter()));
         field_gewicht.setText(Integer.toString(k.getGewicht()));

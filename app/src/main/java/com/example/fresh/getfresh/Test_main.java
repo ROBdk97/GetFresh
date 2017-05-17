@@ -18,33 +18,20 @@ public class Test_main extends AppCompatActivity {
     }
 
     public void dialogevent(View view){
-
-        btn = (Button)findViewById(R.id.dial);
-        btn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                AlertDialog.Builder altdial = new AlertDialog.Builder(Test_main.this);
-                altdial.setMessage("Bitte kaufen sie die Premium-App im Playstore für weitere Funktionen").setCancelable(false)
-                        .setPositiveButton("Ja", new DialogInterface.OnClickListener() {
+        AlertDialog.Builder altdial = new AlertDialog.Builder(Test_main.this);
+        altdial.setMessage("Bitte kaufen sie die Premium-App im Playstore für weitere Funktionen").setCancelable(false)
+                .setPositiveButton("Ja", new DialogInterface.OnClickListener() {
                             @Override
-                            public void onClick(DialogInterface dialog, int which) {
-                                finish();
+                            public void onClick(DialogInterface dialog, int which) {finish();
                             }
                         })
-                        .setNegativeButton("Nein", new DialogInterface.OnClickListener() {
+                .setNegativeButton("Nein", new DialogInterface.OnClickListener() {
                             @Override
-                            public void onClick(DialogInterface dialog, int which) {
-                                dialog.cancel();
+                            public void onClick(DialogInterface dialog, int which) {dialog.cancel();
                             }
                         });
-
-                AlertDialog alert = altdial.create();
-                alert.setTitle("Premium kaufen");
-                alert.show();
-
-            }
-        });
-
-
+        AlertDialog alert = altdial.create();
+        alert.setTitle("Premium kaufen");
+        alert.show();
     }
 }
