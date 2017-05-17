@@ -15,7 +15,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="3 Tag: Beine, Bauch"
-            tools:layout_editor_absoluteX="31dp"
+            app:layout_editor_absoluteX="31dp"
             android:layout_marginTop="25dp"
             app:layout_constraintTop_toBottomOf="@+id/textView18" />
 
@@ -24,7 +24,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="2 Tag: Rücken, Bizeps"
-            tools:layout_editor_absoluteX="31dp"
+            app:layout_editor_absoluteX="31dp"
             android:layout_marginTop="25dp"
             app:layout_constraintTop_toBottomOf="@+id/textView16" />
 
@@ -33,7 +33,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="1 Tag:  Brust, Trizeps"
-            tools:layout_editor_absoluteX="35dp"
+            app:layout_editor_absoluteX="35dp"
             android:layout_marginTop="25dp"
             app:layout_constraintTop_toBottomOf="@+id/textView5" />
 
@@ -42,7 +42,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text=""
-            tools:layout_editor_absoluteX="99dp"
+            app:layout_editor_absoluteX="99dp"
             android:background="@drawable/zum_kochbuch_button"
             app:layout_constraintBottom_toBottomOf="parent"
             android:layout_marginBottom="16dp"
@@ -53,7 +53,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="4er-Split"
-            tools:layout_editor_absoluteX="166dp"
+            app:layout_editor_absoluteX="166dp"
             app:layout_constraintTop_toTopOf="parent"
             android:layout_marginTop="16dp" />
 
@@ -62,7 +62,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="4 Tag: Schultern"
-            tools:layout_editor_absoluteX="31dp"
+            app:layout_editor_absoluteX="31dp"
             android:layout_marginTop="25dp"
             app:layout_constraintTop_toBottomOf="@+id/textView20" />
 
@@ -71,7 +71,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Brust"
-            tools:layout_editor_absoluteX="35dp"
+            app:layout_editor_absoluteX="35dp"
             android:layout_marginTop="8dp"
             app:layout_constraintTop_toBottomOf="@+id/textView11" />
 
@@ -80,7 +80,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Trizeps"
-            tools:layout_editor_absoluteX="35dp"
+            app:layout_editor_absoluteX="35dp"
             android:layout_marginTop="8dp"
             app:layout_constraintTop_toBottomOf="@+id/textView15" />
 
@@ -89,7 +89,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Rücken"
-            tools:layout_editor_absoluteX="35dp"
+            app:layout_editor_absoluteX="35dp"
             android:layout_marginTop="10dp"
             app:layout_constraintTop_toBottomOf="@+id/textView12" />
 
@@ -100,14 +100,14 @@
             android:layout_marginTop="10dp"
             android:text="Bizeps"
             app:layout_constraintTop_toBottomOf="@+id/textView17"
-            tools:layout_editor_absoluteX="35dp" />
+            app:layout_editor_absoluteX="35dp" />
 
         <TextView
             android:id="@+id/textView19"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Beine"
-            tools:layout_editor_absoluteX="35dp"
+            app:layout_editor_absoluteX="35dp"
             android:layout_marginTop="10dp"
             app:layout_constraintTop_toBottomOf="@+id/textView13" />
 
@@ -118,7 +118,7 @@
             android:layout_marginTop="8dp"
             android:text="Bauch"
             app:layout_constraintTop_toBottomOf="@+id/textView19"
-            tools:layout_editor_absoluteX="35dp" />
+            app:layout_editor_absoluteX="35dp" />
 
         <TextView
             android:id="@+id/textView21"
@@ -128,7 +128,7 @@
             android:text="Schultern"
             android:visibility="visible"
             app:layout_constraintTop_toBottomOf="@+id/textView14"
-            tools:layout_editor_absoluteX="35dp" />
+            app:layout_editor_absoluteX="35dp" />
 
         <TextView
             android:id="@+id/textView22"
@@ -137,7 +137,7 @@
             android:layout_marginTop="7dp"
             android:text="Set:"
             app:layout_constraintTop_toBottomOf="@+id/textView11"
-            tools:layout_editor_absoluteX="112dp" />
+            app:layout_editor_absoluteX="112dp" />
 
         <TextView
             android:id="@+id/textView26"
@@ -146,7 +146,7 @@
             android:layout_marginTop="8dp"
             android:text="Set:"
             app:layout_constraintTop_toBottomOf="@+id/textView22"
-            tools:layout_editor_absoluteX="112dp" />
+            app:layout_editor_absoluteX="112dp" />
 
         <TextView
             android:id="@+id/textView27"
@@ -165,7 +165,7 @@
             android:layout_marginTop="9dp"
             android:text="Set:"
             app:layout_constraintTop_toBottomOf="@+id/textView27"
-            tools:layout_editor_absoluteX="112dp" />
+            app:layout_editor_absoluteX="112dp" />
 
         <TextView
             android:id="@+id/textView29"
@@ -174,7 +174,7 @@
             android:layout_marginTop="8dp"
             android:text="Set:"
             app:layout_constraintTop_toBottomOf="@+id/textView13"
-            tools:layout_editor_absoluteX="112dp" />
+            app:layout_editor_absoluteX="112dp" />
 
         <TextView
             android:id="@+id/textView30"
@@ -183,7 +183,7 @@
             android:layout_marginTop="9dp"
             android:text="Set:"
             app:layout_constraintTop_toBottomOf="@+id/textView29"
-            tools:layout_editor_absoluteX="112dp" />
+            app:layout_editor_absoluteX="112dp" />
 
         <TextView
             android:id="@+id/textView31"
@@ -192,14 +192,14 @@
             android:layout_marginTop="10dp"
             android:text="Set:"
             app:layout_constraintTop_toBottomOf="@+id/textView14"
-            tools:layout_editor_absoluteX="112dp" />
+            app:layout_editor_absoluteX="112dp" />
 
         <TextView
             android:id="@+id/textView32"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="TextView"
-            tools:layout_editor_absoluteY="82dp"
+            app:layout_editor_absoluteY="82dp"
             app:layout_constraintLeft_toRightOf="@+id/textView22"
             android:layout_marginLeft="8dp" />
 
@@ -208,7 +208,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="TextView"
-            tools:layout_editor_absoluteY="106dp"
+            app:layout_editor_absoluteY="106dp"
             app:layout_constraintLeft_toRightOf="@+id/textView26"
             android:layout_marginLeft="8dp" />
 
@@ -217,7 +217,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="TextView"
-            tools:layout_editor_absoluteY="176dp"
+            app:layout_editor_absoluteY="176dp"
             app:layout_constraintLeft_toRightOf="@+id/textView27"
             android:layout_marginLeft="8dp" />
 
@@ -226,7 +226,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="TextView"
-            tools:layout_editor_absoluteY="201dp"
+            app:layout_editor_absoluteY="201dp"
             app:layout_constraintLeft_toRightOf="@+id/textView28"
             android:layout_marginLeft="8dp" />
 
@@ -235,7 +235,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="TextView"
-            tools:layout_editor_absoluteY="269dp"
+            app:layout_editor_absoluteY="269dp"
             app:layout_constraintLeft_toRightOf="@+id/textView29"
             android:layout_marginLeft="8dp" />
 
@@ -244,7 +244,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="TextView"
-            tools:layout_editor_absoluteY="294dp"
+            app:layout_editor_absoluteY="294dp"
             app:layout_constraintLeft_toRightOf="@+id/textView30"
             android:layout_marginLeft="8dp" />
 
@@ -253,7 +253,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="TextView"
-            tools:layout_editor_absoluteY="362dp"
+            app:layout_editor_absoluteY="362dp"
             app:layout_constraintLeft_toRightOf="@+id/textView31"
             android:layout_marginLeft="8dp" />
 
@@ -262,7 +262,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Wiederholungen:"
-            tools:layout_editor_absoluteY="82dp"
+            app:layout_editor_absoluteY="82dp"
             app:layout_constraintLeft_toRightOf="@+id/textView32"
             android:layout_marginLeft="8dp" />
 
@@ -273,7 +273,7 @@
             android:layout_marginLeft="9dp"
             android:text="Wiederholungen:"
             app:layout_constraintLeft_toRightOf="@+id/textView33"
-            tools:layout_editor_absoluteY="107dp" />
+            app:layout_editor_absoluteY="107dp" />
 
         <TextView
             android:id="@+id/textView41"
@@ -282,14 +282,14 @@
             android:layout_marginLeft="8dp"
             android:text="Wiederholungen:"
             app:layout_constraintLeft_toRightOf="@+id/textView34"
-            tools:layout_editor_absoluteY="175dp" />
+            app:layout_editor_absoluteY="175dp" />
 
         <TextView
             android:id="@+id/textView42"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Wiederholungen:"
-            tools:layout_editor_absoluteY="201dp"
+            app:layout_editor_absoluteY="201dp"
             app:layout_constraintLeft_toRightOf="@+id/textView35"
             android:layout_marginLeft="9dp" />
 
@@ -300,7 +300,7 @@
             android:layout_marginLeft="9dp"
             android:text="Wiederholungen:"
             app:layout_constraintLeft_toRightOf="@+id/textView36"
-            tools:layout_editor_absoluteY="269dp" />
+            app:layout_editor_absoluteY="269dp" />
 
         <TextView
             android:id="@+id/textView44"
@@ -309,22 +309,22 @@
             android:layout_marginLeft="8dp"
             android:text="Wiederholungen:"
             app:layout_constraintLeft_toRightOf="@+id/textView37"
-            tools:layout_editor_absoluteY="294dp" />
+            app:layout_editor_absoluteY="294dp" />
 
         <TextView
             android:id="@+id/textView45"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Wiederholungen:"
-            tools:layout_editor_absoluteX="212dp"
-            tools:layout_editor_absoluteY="361dp" />
+            app:layout_editor_absoluteX="212dp"
+            app:layout_editor_absoluteY="361dp" />
 
         <TextView
             android:id="@+id/textView46"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="TextView"
-            tools:layout_editor_absoluteY="82dp"
+            app:layout_editor_absoluteY="82dp"
             app:layout_constraintLeft_toRightOf="@+id/textView39"
             android:layout_marginLeft="8dp" />
 
@@ -333,7 +333,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="TextView"
-            tools:layout_editor_absoluteY="107dp"
+            app:layout_editor_absoluteY="107dp"
             app:layout_constraintLeft_toRightOf="@+id/textView40"
             android:layout_marginLeft="8dp" />
 
@@ -342,7 +342,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="TextView"
-            tools:layout_editor_absoluteY="175dp"
+            app:layout_editor_absoluteY="175dp"
             app:layout_constraintLeft_toRightOf="@+id/textView41"
             android:layout_marginLeft="8dp" />
 
@@ -351,7 +351,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="TextView"
-            tools:layout_editor_absoluteY="201dp"
+            app:layout_editor_absoluteY="201dp"
             app:layout_constraintLeft_toRightOf="@+id/textView42"
             android:layout_marginLeft="6dp" />
 
@@ -360,7 +360,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="TextView"
-            tools:layout_editor_absoluteY="269dp"
+            app:layout_editor_absoluteY="269dp"
             app:layout_constraintLeft_toRightOf="@+id/textView43"
             android:layout_marginLeft="8dp" />
 
@@ -369,7 +369,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="TextView"
-            tools:layout_editor_absoluteY="294dp"
+            app:layout_editor_absoluteY="294dp"
             app:layout_constraintLeft_toRightOf="@+id/textView44"
             android:layout_marginLeft="8dp" />
 
@@ -378,7 +378,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="TextView"
-            tools:layout_editor_absoluteY="362dp"
+            app:layout_editor_absoluteY="362dp"
             app:layout_constraintLeft_toRightOf="@+id/textView45"
             android:layout_marginLeft="8dp" />
 
