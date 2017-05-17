@@ -12,9 +12,7 @@ import com.example.fresh.getfresh.helpjars.Training;
 import java.util.ArrayList;
 
 
-/**
- * Created by Benedict on 06.05.2017.
- */
+
 
 public class DreiersplitActivity extends AppCompatActivity
 {
