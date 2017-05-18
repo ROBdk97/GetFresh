@@ -37,30 +37,30 @@ public class ZweiersplitActivity extends AppCompatActivity
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_2erspli);
-        /*
-        setb=(TextView)findViewById(R.id.);
-        widb=(TextView)findViewById(R.id.);
-        sett=(TextView)findViewById(R.id.);
-        widt=(TextView)findViewById(R.id.);
-        setbi=(TextView)findViewById(R.id.);
-        widbi=(TextView)findViewById(R.id.);
-        setr=(TextView)findViewById(R.id.);
-        widr=(TextView)findViewById(R.id.);
-        setbe=(TextView)findViewById(R.id.);
-        widbe=(TextView)findViewById(R.id.);
-        setba=(TextView)findViewById(R.id.);
-        widba=(TextView)findViewById(R.id.);
-        sets=(TextView)findViewById(R.id.);
-        wids=(TextView)findViewById(R.id.);
-        setbe2=(TextView)findViewById(R.id.);
-        widbe2=(TextView)findViewById(R.id.);
-        */
+        
+	//Nicht richtige Ausgabe wegen fehlerhaftem XML
+        setb=(TextView)findViewById(R.id.textView68);
+        widb=(TextView)findViewById(R.id.textView68);
+        sett=(TextView)findViewById(R.id.textView68);
+        widt=(TextView)findViewById(R.id.textView68);
+        setbi=(TextView)findViewById(R.id.textView68);
+        widbi=(TextView)findViewById(R.id.textView68);
+        setr=(TextView)findViewById(R.id.textView68);
+        widr=(TextView)findViewById(R.id.textView68);
+        setbe=(TextView)findViewById(R.id.textView68);
+        widbe=(TextView)findViewById(R.id.textView68);
+        setba=(TextView)findViewById(R.id.textView68);
+        widba=(TextView)findViewById(R.id.textView68);
+        sets=(TextView)findViewById(R.id.textView68);
+        wids=(TextView)findViewById(R.id.textView68);
+        setbe2=(TextView)findViewById(R.id.textView68);
+        widbe2=(TextView)findViewById(R.id.textView68);
+        
 
         //#####
         db = new MyDatabase(this);
         Bundle c = getIntent().getExtras();
         auf=c.getInt("training") != 0;
-        //trainingsliste=db.loadUebungen(c.getInt("training") != 0);
         ausfuellen();
     }
 

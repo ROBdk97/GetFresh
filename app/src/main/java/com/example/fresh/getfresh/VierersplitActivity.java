@@ -8,9 +8,6 @@ import android.widget.TextView;
 
 import com.example.fresh.getfresh.helpjars.MyDatabase;
 
-/**
- * Created by Benedict on 06.05.2017.
- */
 
 public class VierersplitActivity extends AppCompatActivity
 {

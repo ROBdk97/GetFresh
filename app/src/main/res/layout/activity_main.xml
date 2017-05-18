@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="@drawable/bg_neu"
     tools:context="com.example.fresh.getfresh.MainActivity">
-
+<!--Layout der StartActivity-->
     <LinearLayout
         android:layout_width="0dp"
         android:layout_height="512dp"

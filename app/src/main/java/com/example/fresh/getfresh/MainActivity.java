@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     }
-
+	//Button Klick und Öffenen neuer Activity
     public void onClickKochbuch(View v)    {
         Intent intent = new Intent(getApplicationContext(), Kochbuch.class);
         startActivity(intent);
@@ -32,7 +32,8 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(getApplicationContext(), Test_main.class);
         startActivity(intent);
     }
-
+	
+	//Button obenrechts
     public boolean onCreateOptionsMenu(Menu menu) {
         MenuInflater inflater = getMenuInflater();
         inflater.inflate(R.menu.m, menu);

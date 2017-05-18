@@ -26,8 +26,11 @@ public class ErnahrungsplanActivity extends AppCompatActivity
         text_gesKal = (TextView)findViewById(R.id.gesKal);
         text_fett = (TextView)findViewById(R.id.fett);
         text_eiweis = (TextView)findViewById(R.id.eiweis);
+
+	//bekommen der informationen aus der vorherigen Activity
         Bundle b = getIntent().getExtras();
         training=(b.getInt("training") != 0);
+	//Funktionen zum anzeigen der Informationen
         getData();
         berechnen();
     }
@@ -42,6 +45,7 @@ public class ErnahrungsplanActivity extends AppCompatActivity
     private double eiweiss;
     private boolean training=true; //True=Aufbau, False=Abnehmen
 
+	//Berechnungen
     private double gesamterKalorienbedarfBerechnen()
     {
         if(koerperDaten.isGeschlecht())//Wenn True(1) dann Man ansonst Frau
@@ -87,17 +91,17 @@ public class ErnahrungsplanActivity extends AppCompatActivity
         }
     }
 
-
+	//Button um zum Hauptmenü zurück zu kommen
     public void onCLickToMain(View v){
         Intent intent = new Intent(getApplicationContext(), MainActivity.class);
         startActivity(intent);
     }
-
+	//Informationen aus der Datenbank bekommen
     private void getData(){
         MyDatabase db = new MyDatabase(this);
         koerperDaten = db.loadKoerperdaten();
     }
-
+	//Berechnungen werden in die Felder eingetragenund berechnet
     private void berechnen(){
         text_eiweis.setText(formatG(eiweissbedarfberechnen()/4.1));
         text_fett.setText(formatG(fettbgedarfberechnen()/9.3));
@@ -105,6 +109,7 @@ public class ErnahrungsplanActivity extends AppCompatActivity
         text_kohlHyd.setText(formatG(kohlenhydratebgedarfberechnen()/4.1));
     }
 
+	//Formatierung der Ausgabe
     private String formatG(double zahl){
         java.text.DecimalFormat df = new java.text.DecimalFormat("0.00 g");
         return  df.format(zahl);

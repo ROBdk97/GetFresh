@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!--wenn der Button gedr�ckt wird, also state_pressed="true"->einen anderen "Hintergrund" in dem Fall die ver�nderte Button Bilddatei-->
+<!--falls button nicht gedr�ckt-> normale button bilddatei-->
 <selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
 
     <item android:state_focused="true" android:state_pressed="true" android:drawable="@drawable/dsplit_click" />
     <item android:state_focused="false" android:state_pressed="true" android:drawable="@drawable/dsplit_click" />
+
     <item android:drawable="@drawable/dsplit" />
 </selector>

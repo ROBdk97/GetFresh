@@ -20,6 +20,8 @@ public class SplitwahlActivity extends AppCompatActivity
         bSplit3=(Button) findViewById(R.id.button_3ersplit);
         bSplit4=(Button) findViewById(R.id.button_4ersplit);
     }
+
+	//Öffnen der jeweiligenSplittwahl + Übergabe an andere activity
     public void onClick2ersplit(View v)
     {
         Intent intent=new Intent(getApplicationContext(),ZweiersplitActivity.class);

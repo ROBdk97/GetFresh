@@ -7,16 +7,17 @@ import android.view.View;
 import android.widget.Button;
 import android.support.v7.app.AppCompatActivity;
 
+
 public class Test_main extends AppCompatActivity {
 
 
-    public static Button btn;
+    public  Button btn;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_test_main);
     }
-
+	//Dialog für Premiumkauf aufforderung
     public void dialogevent(View view){
         AlertDialog.Builder altdial = new AlertDialog.Builder(Test_main.this);
         altdial.setMessage("Bitte kaufen sie die Premium-App im Playstore für weitere Funktionen").setCancelable(false)

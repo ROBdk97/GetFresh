@@ -20,7 +20,7 @@ import android.content.ContentValues;
 
 public class KoerperdatenActivity extends AppCompatActivity {
 
-
+	//Variabeln
     RadioButton field_maennlich;
     EditText field_alter;
     EditText field_groesse;
@@ -32,7 +32,7 @@ public class KoerperdatenActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_koerperdaten);
 
-
+	//bekomen der GUI elemente um mit ihnenen zu arbeiten
         final Button field_button = (Button) findViewById(R.id.field_button);
         field_maennlich = (RadioButton) findViewById(R.id.radioButton_m);
         final RadioButton field_weiblich = (RadioButton) findViewById(R.id.radioButton_w);
@@ -40,16 +40,16 @@ public class KoerperdatenActivity extends AppCompatActivity {
         field_groesse = (EditText) findViewById(R.id.field_groesse);
         field_gewicht = (EditText) findViewById(R.id.field_gewicht);
 
-
         lade();
     }
-
+	//Funktion zum speichern
     public void onClickErgebniss(View v){
         System.out.println("Save");
+	//Eigentliche Speicher befehle
         //MyDatabase db = new MyDatabase(this);
         //db.saveKoerperdaten(field_maennlich.hasSelection(),Integer.parseInt(field_groesse.getText().toString()),Integer.parseInt(field_alter.getText().toString()), Integer.parseInt(field_gewicht.getText().toString()));
     }
-
+	//Lade informationen aus datenbank und anzeigen
     private void lade(){
         MyDatabase db= new MyDatabase(this);
         Koerperdaten k = db.loadKoerperdaten();

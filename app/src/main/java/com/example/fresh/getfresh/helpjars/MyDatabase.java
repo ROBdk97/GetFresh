@@ -1,30 +1,24 @@
 package com.example.fresh.getfresh.helpjars;
 
-
 import android.content.ContentValues;
 import android.content.Context;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteQueryBuilder;
-
-import com.example.fresh.getfresh.helpjars.Rezept;
 import com.readystatesoftware.sqliteasset.SQLiteAssetHelper;
-
 import java.util.ArrayList;
-
-/**
- * Created by Robin on 15.05.2017.
- */
 
 public class MyDatabase extends SQLiteAssetHelper {
 
     private static final String DATABASE_NAME = "getFresh.db";
     private static final int DATABASE_VERSION = 1;
-
+	
+	//Konstruktor
     public MyDatabase(Context context) {
         super(context, DATABASE_NAME, null, DATABASE_VERSION);
     }
 
+	//Methode um Rezepte aus datenbank auszulesen
     public ArrayList<Rezept> getRezepte(){
         SQLiteDatabase db = getReadableDatabase();
         SQLiteQueryBuilder qb = new SQLiteQueryBuilder();
@@ -40,6 +34,7 @@ public class MyDatabase extends SQLiteAssetHelper {
         return rezeptliste;
     }
 
+	//Fehlerhafte methode um Koerperdaten zu speichern
     public void saveKoerperdaten(boolean geschlecht, int groesse, int alter, int gewicht){
         String name = "";
         SQLiteDatabase db = getReadableDatabase();
@@ -54,6 +49,7 @@ public class MyDatabase extends SQLiteAssetHelper {
         System.out.println("Körperdaten gespeichert####");
     }
 
+	//Laden der Körperdaten
     public Koerperdaten loadKoerperdaten(){
         SQLiteDatabase db = getReadableDatabase();
         SQLiteQueryBuilder qb = new SQLiteQueryBuilder();
@@ -66,6 +62,7 @@ public class MyDatabase extends SQLiteAssetHelper {
         return  k;
     }
 
+	//Nicht benutzte Methode um liste aller Uebungen zu erhalten je nach trainingsart
     public ArrayList<Training> loadUebungen(boolean trainingsart){
         SQLiteDatabase db = getReadableDatabase();
         SQLiteQueryBuilder qb = new SQLiteQueryBuilder();
@@ -86,6 +83,7 @@ public class MyDatabase extends SQLiteAssetHelper {
         return trainingsliste;
     }
 
+	//Training erhalten je nach trainingsart und angeforderter Muskeltyp
     public Training getTraining(boolean trainingsart,String mtyp){
         SQLiteDatabase db = getReadableDatabase();
         SQLiteQueryBuilder qb = new SQLiteQueryBuilder();

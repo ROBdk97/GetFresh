@@ -17,6 +17,8 @@ public class TraningsplanauswahlActivity extends AppCompatActivity {
         setContentView(R.layout.activity_traningsplanauswahl);
         maufbau=(RadioButton)findViewById(R.id.radioButton_muskelaufbau);
     }
+
+	//Weitergabe von infos und Öffenen der nächsten activity
     public void onClickweiter(View v)
     {
         Intent intent=new Intent(getApplicationContext(),SplitwahlActivity.class);
